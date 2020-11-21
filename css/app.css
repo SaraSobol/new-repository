@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(15, 141, 120);
+  color:rgba(58, 67, 68, 0);
+  text-align: center;
+}
+
+.game-board td {
+  width: 40px;
+  height:40px;
+  text-align: center;
+  font-size:1.4em;
+}
+
+.board {
+  margin: 20px auto;
+}
+
+td {
+  background-color: rgba(169, 173, 175, 0.575);
+  color: rgb(154, 155, 155);
+  width: 60px;
+  height: 60px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 1.2em;
+  margin: 0px;
+  padding: 0px;
+  /* border-width: 0px; */
+  cursor: pointer;
+}
+.row
+font-size
+
+.col.hidden{
+  background-color: rgb(149, 177, 177);
+  cursor: pointer;
+}
+.row:last-child .col{
+border-top: black;
+}
+.wrapper {
+  min-width: 320px;
+  width: 95vw;
+  margin: auto;
+}
+
+
+/* }
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+} */
+
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+
+/* 
+.modal {
+display : none;
+background-color: #fff;
+color: blue;
+text-align: center;
+width: 500px;
+margin: auto;
+position: absolute;
+top: 40%;
+left: 20%;
+padding: 5%; */
+
+
+
+

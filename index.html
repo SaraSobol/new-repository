@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>minesweeper</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+
+
+<body onload="init()">
+
+
+    <h1>minesweeper</h1>
+    <div class="wrapper">
+
+        <div class="game-size">
+            
+            <button data-size="0" onclick="changeBoardSize(this)">Small</button>
+            <button data-size="1" onclick="changeBoardSize(this)">Medium</button>
+            <button data-size="2" onclick="changeBoardSize(this)">Large</button>
+            
+        </div>
+        <div>
+            
+            <button class=reset onclick="init()">🙂</button>
+        </div>
+        <table class="center">
+            <tbody class="game-board">
+
+            </tbody>
+        </table>
+
+    </div>
+
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+
+</html>
